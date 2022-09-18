@@ -27,6 +27,7 @@ h1{
     font-size: 50%;
 
 }
+
 h1 span{
     color: crimson;
 }
@@ -54,13 +55,28 @@ h1 span{
     
 
 }
+.Experience-Area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .experience-item{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 10px;
+    border-radius: 5px ;
+   box-shadow: 10px 10ex 5px darkcyan;
+    
 
-    box-shadow: 10px 10ex 5px gray;
+}
+#Full-stack-developer{
+    border-left: 7px solid bisque;
+
+
+}
+#Baby-web-developer{
+    border-left: 7px solid burlywood;
 }
 
  
